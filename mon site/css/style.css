@@ -1,0 +1,99 @@
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+div#content div.leftbox{
+    background-color: aquamarine;
+    vertical-align: top;
+}
+
+div#content div h1, p, iframe{
+    margin: 25px;
+}
+div#content div.rightbox{
+    background-color: chocolate;
+
+}
+
+p.welcome {
+    color: #fff;
+    background-color: #E21C44;
+}
+
+p.vivacss {
+    color: #000;
+}
+
+body {
+    background-color: #777;
+}
+
+h2.headline {
+    font-size: 50px;
+}
+
+nav.menue-nav ul li.btn {
+    display: inline-block;
+    list-style: none;
+
+}
+nav.menue-nav-contact ul li.btn {
+    margin: 5px;
+    list-style: none;
+
+}
+
+nav.menue-nav ul li.btn a {
+    color: red; 
+    background-color: white; 
+    text-decoration: none;
+    padding: 10px;  
+}
+
+nav.menue-nav ul li.btn:hover a {
+    color: white;
+    background-color: red;
+    transition: 0.5s all;
+}
+nav.menue-nav-contact ul li.btn a {
+    color: rgb(0, 98, 255); 
+    background-color: rgb(0, 255, 229); 
+    text-decoration: none;
+    padding: 17px; 
+    margin: 15px; 
+    border-spacing: 25px;
+    line-height:    55px;
+    border-radius: 75%;
+}
+
+nav.menue-nav-contact ul li.btn:hover a {
+    color: rgb(0, 255, 229);
+    background-color: rgb(0, 98, 255);
+    transition: 0.25s all;
+    
+}
+img.pp{
+    border-radius: 35%;
+    width: 15%;
+    margin: 55px;
+    -webkit-filter: blur(6px);
+	filter: blur(6px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}   
+img.pp:hover{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+img.ban{
+    width: 100%;
+    height: 25%;
+
+} 
